@@ -2610,6 +2610,12 @@
 	border-color: blueviolet;
 	display: block;
 	width: 3em;
+	transition: ease-out 0.2s;
+
+}
+.figurita:hover{
+	width: 3.2em;
+	transition: 0.3s;
 }
 .titulo-project{
 	color: #FF6382;

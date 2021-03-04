@@ -2216,16 +2216,6 @@
 		background-color: #FF6382;
 		border-radius: 4px;
 		border: 0;
-		color: !important;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 200;
-		height: 2.85em;
-		line-height: 2.95em;
-		padding: 0 1.5em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
 	}
 
 		input[type="submit"]:hover,
@@ -2326,7 +2316,6 @@
 		button.special,
 		.button.special {
 			background-color: #FF6382;
-			color: !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2610,12 +2599,12 @@
 	border-color: blueviolet;
 	display: block;
 	width: 3em;
-	transition: ease-out 0.2s;
+	transition: 1.5s;
 
 }
 .figurita:hover{
-	width: 3.2em;
-	transition: 0.3s;
+	width: 5.2em;
+	transition: ease-out 0.9s;
 }
 .titulo-project{
 	color: #FF6382;
@@ -2627,6 +2616,10 @@
 			}
 
 		}
+.logo{
+	width: 150px;
+	height: 150px;
+}
 
 /* Footer */
 
